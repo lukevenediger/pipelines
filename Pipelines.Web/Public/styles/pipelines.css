@@ -1,0 +1,184 @@
+﻿body {
+  padding-top: 70px;
+  background: #e6ebea;
+}
+div.card {
+  background: #bdd4de;
+  width: 250px;
+  min-height: 35px;
+  border-radius: 5px;
+  margin: 0 auto 4px auto;
+  cursor: pointer;
+}
+div.card div.details {
+  background: #2b3a42;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 250px;
+  height: 23px;
+}
+div.card div.details div.id {
+  font-size: x-small;
+  font-family: 'Alderich', sans-serif;
+  font-weight: bold;
+  color: white;
+  line-height: 23px;
+  text-align: left;
+  width: 200px;
+  margin-left: 10px;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+div.card div.details .card-subscription {
+  float: right;
+  margin: 7px 7px 0 0;
+}
+div.card div.details .card-subscription.card-subscribed {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+  display: inline-block;
+}
+div.card div.details .card-subscription.card-unsubscribed {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #bdd4de;
+  display: inline-block;
+}
+div.card div.content {
+  font-family: 'Alderich', sans-serif;
+  min-height: 12px;
+  cursor: pointer;
+  line-height: 14px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+div.card div.content div.data {
+  display: none;
+}
+div.card div.content div.data span {
+  overflow-wrap: break-word;
+}
+div.card .popover .popover-title {
+  display: none;
+}
+div.card .popover .popover-content {
+  width: 265px;
+}
+table tr {
+  height: 46px;
+}
+table tr th {
+  vertical-align: middle !important;
+}
+table tr td {
+  min-width: 260px !important;
+  vertical-align: top;
+}
+table tr td .card:last-child {
+  margin: 0 auto 0 auto;
+}
+table tr td.pipeline-subscribed {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+  background-color: #dff0d8 !important;
+  border-color: #d6e9c6 !important;
+  vertical-align: middle !important;
+}
+table tr td.pipeline-unsubscribed {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle !important;
+}
+table tr th.stage-subscribed {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+  background-color: #dff0d8 !important;
+  border-color: #d6e9c6 !important;
+}
+table tr th.stage-unsubscribed {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+}
+.cell-hover {
+  background-color: #dff0d8 !important;
+  border-color: #d6e9c6 !important;
+}
+.modal-content {
+  background-color: #F8F8F8;
+}
+.modal-content .modal-header {
+  background-color: #3276B1;
+  color: #FFF;
+}
+.ui-draggable-dragging {
+  z-index: 1500;
+}
+.editable-click,
+a.editable-click,
+a.editable-click:hover {
+  border-bottom: none;
+}
+.valid {
+  border-color: #356635 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b !important;
+}
+.bootstrap-tagsinput.invalid input {
+  color: #ff0000 !important;
+}
+.invalid {
+  color: #ff0000 !important;
+  border-color: #b94a48 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
+}
+.selected {
+  border-color: #66afe9 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6) !important;
+}
+.fade.in {
+  overflow: hidden;
+}
+.modal-open .navbar-fixed-top {
+  margin-right: 0px !important;
+}
